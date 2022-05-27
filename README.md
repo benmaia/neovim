@@ -2,7 +2,7 @@
 
 <p>My Neovim settings with the plugins I use everyday. Feel free to try them!<p>
   
-<img src="" width="1000" height="450">
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979893724815450202/Screencast_from_28-05-2022_00_42_42.gif" width="1000" height="450">
   
 <h2> Index </h2>
 <p><a href="#Instalation">
@@ -18,7 +18,7 @@
 <h2 id="Instalation">Instalation</h2>
 
 ```bash
-git -C ~/ clone https://github.com/benmaia/Vim.git
+git -C ~/ clone https://github.com/benmaia/nvim.git
 ```
 
 ```bash
