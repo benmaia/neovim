@@ -56,6 +56,7 @@ cd ~/nvim && ./install.sh -y
   <li>Terminal Toggle <a href="https://github.com/akinsho/toggleterm.nvim" target="_blank">here</a></li>
   <li>Autopairs <a href="https://github.com/windwp/nvim-autopairs" target="_blank">here</a></li>
   <li>Transparent Terminal <a href="https://github.com/xiyaowong/nvim-transparent" target="_blank">here</a></li>
+  <li>Bufferline <a href="https://github.com/akinsho/bufferline.nvim" target="_blank">here</a></li>
 </ul>
 
 <h2 id="Sc">Shortcuts</h2>
