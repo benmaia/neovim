@@ -1,7 +1,5 @@
-
 " Handle Vim
 :nnoremap q :q!<cr>
-
 
 " Move lines
 :nnoremap <M-Up> :m-2<CR>
@@ -23,10 +21,13 @@ nnoremap <C-r> :cd %:p:h<CR>:pwd<CR>
 "Auto-comments
 map cc <Plug>NERDCommenterInvert
 
-
 "ToggleTerminal
 nnoremap <M-j> :ToggleTerm<CR>
 tnoremap <M-j> exit<CR>
+
+"NERDTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-b> :NERDTreeToggle<CR>
 
 "42 Header
 nnoremap <F5> :Stdheader<cr>
