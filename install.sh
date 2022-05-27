@@ -52,7 +52,7 @@ fi
 
 # Transfering my nvim config
 [ -d "/home/$(whoami)/.config" ] || mkdir .config
-cp -r nvim ../.config
+cp -r /home/$(whoami)/dotfiles_config/nvim /home/$(whoami)/.config
 
 # Install Plugins
 nvim +PlugInstall +qall
