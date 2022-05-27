@@ -57,7 +57,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 " Terminal Toggle
 Plug 'akinsho/toggleterm.nvim'
 
-" Tranparent Terminal
+" Transparent Terminal
 Plug 'xiyaowong/nvim-transparent'
 
 " 42 Header
