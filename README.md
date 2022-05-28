@@ -2,7 +2,7 @@
 
 <p>My Neovim settings with the plugins I use everyday. Feel free to try them!<p>
   
-<img src="https://cdn.discordapp.com/attachments/461563270411714561/979893724815450202/Screencast_from_28-05-2022_00_42_42.gif" width="1000" height="450">
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979895728753221703/123.gif" width="1000" height="450">
   
 <h2> Index </h2>
 <p><a href="#Instalation">
@@ -104,3 +104,12 @@ cd ~/nvim && ./install.sh -y
 <ul>
 
 <p> Like I said, I'm still learning new commands, if you know other ones that are really usefull please tell me, I want to incorporate them!</p>
+  
+<p> Here are some plugins working </p>
+<h3> Auto Complete + Documentation + Errors</h3>
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979897972336754788/234.gif" width="1000" height="450">
+<h3> Telescope </h3>
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979896525490634802/45.gif" width="1000" height="450">
+<h3> NERDTree </h3>
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979899163984666684/Screencast_from_28-05-2022_01_06_08.gif" width="1000" height="450">
+
