@@ -29,7 +29,8 @@ sudo apt-get -y install python3-pip
 sudo apt install ripgrep -y
 
 # Install Plugin Manager
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Install Norminette
 sudo apt-get install -y python3-launchpadlib
