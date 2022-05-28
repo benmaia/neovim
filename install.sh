@@ -46,7 +46,3 @@ cp -r /home/$(whoami)/nvim/nvim /home/$(whoami)/.config
 
 # Install Plugins
 nvim +PlugInstall +qall
-nvim -C ':TSInstall c' \
-	-c ':TSInstall cpp' \
-	-c ':TSInstall python' \
-	-c 'qa!'
