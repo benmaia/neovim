@@ -1,4 +1,4 @@
-# nvim
+# Neovim
 
 <p>My Neovim settings with the plugins I use everyday. Feel free to try them!<p>
   
