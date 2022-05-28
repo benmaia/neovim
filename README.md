@@ -1,9 +1,7 @@
 # Neovim
 
 <p>My Neovim settings with the plugins I use everyday. Feel free to try them!<p>
-  
-<img src="https://cdn.discordapp.com/attachments/461563270411714561/979895728753221703/123.gif" width="1000" height="450">
-  
+ 
 <h2> Index </h2>
 <p><a href="#Instalation">
   Instalation
@@ -14,7 +12,10 @@
 <p><a href="#Sc">
   Shortcuts
 </a></p>
-
+  
+<h2> Preview </h2>
+<img src="https://cdn.discordapp.com/attachments/461563270411714561/979895728753221703/123.gif" width="1000" height="450">
+  
 <h2 id="Instalation">Instalation</h2>
 
 ```bash
