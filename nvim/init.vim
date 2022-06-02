@@ -21,8 +21,8 @@ syntax enable
 filetype plugin indent on
 :set autoindent
 :set smartindent
-:set tabstop=4
-:set shiftwidth=4
+:set tabstop=3
+:set shiftwidth=3
 
 " Activate mouse
 :set mouse=a

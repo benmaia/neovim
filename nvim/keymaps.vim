@@ -22,8 +22,8 @@ nnoremap <C-r> :cd %:p:h<CR>:pwd<CR>
 map cc <Plug>NERDCommenterInvert
 
 "ToggleTerminal
-nnoremap <M-j> :ToggleTerm<CR>
-tnoremap <M-j> exit<CR>
+nnoremap <C-t> :ToggleTerm<CR>
+tnoremap <C-t> exit<CR>
 
 "NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -34,3 +34,6 @@ nnoremap <F5> :Stdheader<cr>
 
 "Norminette
 nnoremap <C-n> :Norminette<cr>
+
+"Current project
+nnoremap<C-j> :make re; ./minishell<CR>

@@ -18,6 +18,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 " Colorscheme
 Plug 'rakr/vim-two-firewatch'
+Plug 'glepnir/oceanic-material'
+Plug 'sainnhe/sonokai'
 
 " Auto-comment
 Plug 'preservim/nerdcommenter'
