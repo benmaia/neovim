@@ -65,11 +65,17 @@ Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 " Tranparent Terminal
 Plug 'xiyaowong/nvim-transparent'
 
+" Markdown Preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 " 42 Header
 Plug '42Paris/42header'
 
 " Norminette
 Plug 'vim-syntastic/syntastic'
 Plug 'alexandregv/norminette-vim'
+
+" Auto-save
+Plug 'Pocco81/AutoSave.nvim'
 
 call plug#end()
