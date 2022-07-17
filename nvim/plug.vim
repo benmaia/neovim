@@ -60,7 +60,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'akinsho/toggleterm.nvim'
 
 " Bufferline
-Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
+"Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 
 " Tranparent Terminal
 Plug 'xiyaowong/nvim-transparent'
@@ -74,8 +74,5 @@ Plug '42Paris/42header'
 " Norminette
 Plug 'vim-syntastic/syntastic'
 Plug 'alexandregv/norminette-vim'
-
-" Auto-save
-Plug 'Pocco81/AutoSave.nvim'
 
 call plug#end()

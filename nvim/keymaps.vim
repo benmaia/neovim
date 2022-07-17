@@ -1,5 +1,8 @@
 " Handle Vim
 :nnoremap q :q!<cr>
+:nnoremap <M-s> :w!<cr>
+:nnoremap <leader>+ :vertical resize +5<CR>
+:nnoremap <leader>- :vertical resize -5<CR>
 
 " Move lines
 :nnoremap <M-Up> :m-2<CR>
@@ -8,10 +11,10 @@
 :vnoremap <M-Down> :m '>+1<CR>gv=gv
 
 " Move between windows and tabs
-nnoremap <C-Left> <C-w>h
-nnoremap <C-Right> <C-w>l
-nnoremap <C-Up> <C-w>k
-nnoremap <C-Down> <C-w>j
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>j
 nnoremap <M-Left> :tabprevious<CR>
 nnoremap <M-Right> :tabnext<CR>
 
@@ -19,7 +22,7 @@ nnoremap <M-Right> :tabnext<CR>
 nnoremap <C-r> :cd %:p:h<CR>:pwd<CR>
 
 "Auto-comments
-map cc <Plug>NERDCommenterInvert
+nnoremap cc <Plug>NERDCommenterInvert
 
 "ToggleTerminal
 nnoremap <C-t> :ToggleTerm<CR>
@@ -34,6 +37,3 @@ nnoremap <F5> :Stdheader<cr>
 
 "Norminette
 nnoremap <C-n> :Norminette<cr>
-
-"Current project
-nnoremap<C-j> :make re; ./minishell<CR>

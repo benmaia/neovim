@@ -1,5 +1,8 @@
 " Set line nbr
-:set number
+:set number relativenumber
+
+" Set leader key
+:let mapleader = " "
 
 " Enable syntax
 syntax enable
@@ -8,7 +11,7 @@ syntax enable
 :set ignorecase
 
 " Sets the cmd line high
-:set cmdheight=1 
+:set cmdheight=1
 
 " Set encoding
 :set encoding=utf-8

@@ -11,12 +11,17 @@ require'nvim-treesitter.configs'.setup {
   },
   indent = {
     enable = true,
-    disable = {},
+    disable = {
+		 "c",
+		 "cpp",
+		 "python",
+		 "javascript"
+		},
   },
   ensure_installed = {
     "c",
 	"cpp",
-    "fish",
+	"javascript",
     "php",
     "json",
     "yaml",
