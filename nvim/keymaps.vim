@@ -37,3 +37,6 @@ nnoremap <F5> :Stdheader<cr>
 
 "Norminette
 nnoremap <C-n> :Norminette<cr>
+
+" BUf LSP
+nnoremap <leader>vd :lua vim.lsp.buf.definition()<CR>

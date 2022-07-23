@@ -18,7 +18,7 @@ syntax enable
 
 " Show tabs and spaces
 :set list
-:set listchars=eol:^,tab:\|\ ,trail:\ ,space:·,extends:>,precedes:<
+:set listchars=eol:↲,tab:\|\ ,space:·,extends:>,precedes:<
 
 " Identation
 filetype plugin indent on
@@ -34,7 +34,8 @@ filetype plugin indent on
 :set clipboard=unnamedplus
 
 " Fold with identation
-:set foldmethod=syntax
+":set foldmethod=syntax
+:set foldmethod=indent
 :set foldlevel=99
 
 " No Readonly
