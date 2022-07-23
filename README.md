@@ -23,7 +23,7 @@ git -C ~/ clone https://github.com/benmaia/neovim.git
 ```
 
 ```bash
-cp -r nvim ../.config
+cp -r ~/neovim/nvim ../.config
 ```
 
 ```bash
