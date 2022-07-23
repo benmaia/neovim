@@ -23,11 +23,13 @@ git -C ~/ clone https://github.com/benmaia/neovim.git
 ```
 
 ```bash
+cp -r nvim ../.config
+```
+
+```bash
 cd ~/neovim && ./install.sh -y
 ```
-```bash
-mkdir .config && cp -r nvim ../.config
-```
+
 
 <p> The <code>./install.sh</code> will install neovim and all the nvim plugins.</p>
 
