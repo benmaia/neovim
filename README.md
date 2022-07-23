@@ -19,11 +19,14 @@
 <h2 id="Instalation">Instalation</h2>
 
 ```bash
-git -C ~/ clone https://github.com/benmaia/nvim.git
+git -C ~/ clone https://github.com/benmaia/neovim.git
 ```
 
 ```bash
-cd ~/nvim && ./install.sh -y
+cd ~/neovim && ./install.sh -y
+```
+```bash
+mkdir .config && cp -r nvim ../.config
 ```
 
 <p> The <code>./install.sh</code> will install neovim and all the nvim plugins.</p>
