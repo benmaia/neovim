@@ -23,10 +23,6 @@ git -C ~/ clone https://github.com/benmaia/neovim.git
 ```
 
 ```bash
-cp -r ~/neovim/nvim ../.config
-```
-
-```bash
 cd ~/neovim && ./install.sh -y
 ```
 
