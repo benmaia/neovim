@@ -25,7 +25,7 @@ git -C ~/ clone https://github.com/benmaia/neovim.git
 ```bash
 cd ~/neovim && ./install.sh -y
 ```
-After that, open nvim, and run ```bash :LspInstallInfo ``` and choose the languages you currently use, in my case I use clang for C and C++ and pyright for python!
+After that, open nvim, and run ```:LspInstallInfo ``` and choose the languages you currently use, in my case I use clang for C and C++ and pyright for python!
 
 <p> The <code>./install.sh</code> will install neovim and all the nvim plugins.</p>
 
