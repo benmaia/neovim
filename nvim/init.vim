@@ -92,3 +92,4 @@ let g:syntastic_check_on_wq = 1
 :runtime ./plug.vim
 :runtime ./colorscheme.vim
 :runtime ./keymaps.vim
+:runtime ./after/plugin/clang-format.rc.vim

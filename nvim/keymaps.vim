@@ -5,10 +5,10 @@
 :nnoremap <leader>- :vertical resize -5<CR>
 
 " Move lines
-:nnoremap <M-Up> :m-2<CR>
-:nnoremap <M-Down> :m+<CR>
-:vnoremap <M-Up> :m '<-2<CR>gv=gv
-:vnoremap <M-Down> :m '>+1<CR>gv=gv
+:nnoremap <A-Up> :m-2<CR>
+:nnoremap <A-Down> :m+<CR>
+:vnoremap <A-Up> :m '<-2<CR>gv=gv
+:vnoremap <A-Down> :m '>+1<CR>gv=gv
 
 " Move between windows and tabs
 nnoremap <C-h> <C-w>h

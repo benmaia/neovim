@@ -8,6 +8,22 @@ call plug#begin()
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
+"Google Test
+Plug 'alepez/vim-gtest'
+
+"Test in other Framkworks
+Plug 'vim-test/vim-test'
+
+"Code Coverage
+
+
+"Clang Format
+Plug 'rhysd/vim-clang-format'
+
+"Cmake
+Plug 'cdelledonne/vim-cmake'
+Plug 'antoinemadec/FixCursorHold.nvim'
+
 " NERDtree
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
