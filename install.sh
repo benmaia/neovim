@@ -23,6 +23,7 @@ sudo apt update && sudo apt install yarn
 yarn install
 
 # Install pip
+sudo apt install python3.8-venv
 sudo apt-get -y install python3-pip
 
 # Install ripgrep
