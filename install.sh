@@ -4,8 +4,10 @@
 sudo apt update && sudo apt upgrade -y
 
 # Install basic needs
-[ -f "/usr/bin/git" ] || sudo apt install git -y
-[ -f "/usr/bin/curl" ] || sudo apt install curl -y
+sudo apt install git -y
+sudo apt install curl -y
+sudo apt install fd-find -y
+sudo apt install gcc clang clangd -y
 
 # Install most recent version NVIM
 sudo apt install software-properties-common -y
