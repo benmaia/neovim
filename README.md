@@ -43,11 +43,8 @@ After that, open nvim, and run ```:LspInstallInfo ``` and choose the languages y
   <li>Vim-Norminette <a href="https://github.com/alexandregv/norminette-vim" target="_blank">here</a></li>
   <li>Telescope <a href="https://github.com/nvim-telescope/telescope.nvim" target="_blank">here</a></li>
   <li>Vim Fugitive <a href="https://github.com/tpope/vim-fugitiveset" target="_blank">here</a></li>
-  <li>NERDTree <a href="https://github.com/preservim/nerdtree" target="_blank">here</a></li>
-  <li>NERDTree Git <a href="https://github.com/Xuyuanp/nerdtree-git-plugin" target="_blank">here</a></li>
   <li>Vim Devicons <a href="https://github.com/ryanoasis/vim-devicons" target="_blank">here</a></li>
   <li>Nvim Web Devicons <a href="https://github.com/kyazdani42/nvim-web-devicons" target="_blank">here</a></li>
-  <li>Colorscheme Two Firewatch [costum] <a href="https://github.com/rakr/vim-two-firewatch" target="_blank">here</a></li>
   <li>NERD Commenter <a href="https://github.com/preservim/nerdcommenter" target="_blank">here</a></li>
   <li>Lualine <a href="https://github.com/vim-airline/vim-airline" target="_blank">here</a></li>
   <li>Cmp <a href="https://github.com/hrsh7th/nvim-cmp" target="_blank">here</a></li>
@@ -58,29 +55,18 @@ After that, open nvim, and run ```:LspInstallInfo ``` and choose the languages y
   <li>Terminal Toggle <a href="https://github.com/akinsho/toggleterm.nvim" target="_blank">here</a></li>
   <li>Autopairs <a href="https://github.com/windwp/nvim-autopairs" target="_blank">here</a></li>
   <li>Transparent Terminal <a href="https://github.com/xiyaowong/nvim-transparent" target="_blank">here</a></li>
-  <li>Bufferline <a href="https://github.com/akinsho/bufferline.nvim" target="_blank">here</a></li>
 </ul>
 
 <h2 id="Sc">Shortcuts</h2>
 <p> This are some shortcuts to use inside VIM. Feel free to change the shortcuts, but this are some of that come configure and I think they are pretty usefull!</p>
 <ul>
-  <li> CTRL b - Open Nerd Tree </li>
-  <ul>
-    <li> SHIFT c - to change root to the selected folder </li>
-    <li> SHIFT u - to go one dir back </li>
-    <li> t - open the file in another tab</li>
-    <li> s - open the file and split the screen verticaly</li>
-    <li> i - open the file and split the screen horizontaly</li>
-    <li> m - opens a menu to add, delete, move, copy, etc a file</li>
-    <li> ? to opens a menu with all the commands possible </li>
-  </ul>
   <li> CTRL arrow key - to move through windows</li>
   <li> ALT left/right - to move through tabs</li>
   <li> ALT j - open and close terminal</li>
   <li> q - to close a window</li>
   <li> Telescope </li>
   <ul>
-    <li> CTRL f - telescope file finder</li>
+    <li> CTRL p - telescope file browsing</li>
     <li> CTRL g - telescope word grep</li>
     <li> CTRL t - open file in new tab</li>
     <li> CTRL v - open file in a vertical split</li>
