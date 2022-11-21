@@ -39,4 +39,6 @@ nnoremap <F5> :Stdheader<cr>
 nnoremap <C-n> :Norminette<cr>
 
 " BUf LSP
-nnoremap <leader>vd :lua vim.lsp.buf.definition()<CR>
+nnoremap <leader>d :lua vim.lsp.buf.definition()<CR>
+nnoremap <leader>h :lua vim.lsp.buf.hover()<CR>
+nnoremap <leader>gd :lua require('goto-preview').goto_preview_definition()<CR>

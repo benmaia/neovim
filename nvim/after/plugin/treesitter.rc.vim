@@ -10,11 +10,7 @@ require'nvim-treesitter.configs'.setup {
     disable = {},
   },
   indent = {
-    enable = true,
-    disable = {
-		 "c",
-		 "cpp",
-		},
+    enable = false,
   },
   ensure_installed = {
     "c",
@@ -22,9 +18,10 @@ require'nvim-treesitter.configs'.setup {
   },
   autotag = {
     enable = true,
+  },
+  navigation = {
+	  enable = true,
   }
 }
 
-local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
-parser_config.tsx.filetype_to_parsername = { "javascript", "typescript.tsx" }
 EOF

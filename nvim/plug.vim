@@ -5,6 +5,9 @@ endif
 " Plug Vim
 call plug#begin()
 
+" Testing
+Plug 'rmagatti/goto-preview'
+
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
@@ -14,19 +17,12 @@ Plug 'alepez/vim-gtest'
 "Test in other Framkworks
 Plug 'vim-test/vim-test'
 
-"Code Coverage
-
-
 "Clang Format
 Plug 'rhysd/vim-clang-format'
 
 "Cmake
 Plug 'cdelledonne/vim-cmake'
 Plug 'antoinemadec/FixCursorHold.nvim'
-
-" NERDtree
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
@@ -58,13 +54,16 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 
 " Telescope
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-file-browser.nvim'
 
 " Autopairs
 Plug 'windwp/nvim-autopairs'
 
 " LSP
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason.lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
+"Plug 'williamboman/nvim-lsp-installer'
 Plug 'onsails/lspkind-nvim'
 
 " Snipets
