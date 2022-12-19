@@ -38,6 +38,7 @@ Plug 'preservim/nerdcommenter'
 
 " Git
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 
 " Cmp
 Plug 'hrsh7th/cmp-nvim-lsp'

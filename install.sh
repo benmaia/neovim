@@ -8,6 +8,7 @@ sudo apt install git -y
 sudo apt install curl -y
 sudo apt install fd-find -y
 sudo apt install gcc clang clangd -y
+sudo apt install libcurl-dev libcurl4-openssl-dev libcurl4-nss-dev libcurl4-gnutls-dev -y
 
 # Install most recent version NVIM
 sudo apt install software-properties-common -y

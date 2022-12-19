@@ -5,5 +5,8 @@ if !exists('*fugitive#statusline')
   set statusline+=%{fugitive#statusline()}
 endif
 
-cnoreabbrev g Git
-cnoreabbrev gopen GBrowse
+"cnoreabbrev g Git
+"cnoreabbrev gopen GBrowse
+
+let g:github_enterprise_urls = ['https://cc-github.bmwgroup.net']
+

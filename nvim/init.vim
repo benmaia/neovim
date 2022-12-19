@@ -51,11 +51,15 @@ filetype plugin indent on
 :au FocusGained,BufEnter * :checktime
 
 " Set NERDTree
-let NERDTreeShowHidden=1
+"let NERDTreeShowHidden=1
 "autocmd VimEnter * NERDTree
 
 " Auto-comments
 filetype plugin on
+
+let g:netrw_browser_viewer='open'
+let g:netrw_browsex_viewer="setsid xdg-open"
+nmap gx :silent execute "!xdg-open " . shellescape("<cWORD>")<CR>
 
 " 42 Header
 let g:user42 = 'bmiguel-'

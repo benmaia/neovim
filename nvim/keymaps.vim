@@ -1,5 +1,6 @@
 " Handle Vim
 :nnoremap q :q!<cr>
+:nnoremap <leader>q :qa!<cr>
 :nnoremap <M-s> :w!<cr>
 :nnoremap <leader>+ :vertical resize +5<CR>
 :nnoremap <leader>- :vertical resize -5<CR>
@@ -19,14 +20,14 @@ nnoremap <M-Left> :tabprevious<CR>
 nnoremap <M-Right> :tabnext<CR>
 
 "Change Vim root
-nnoremap <C-r> :cd %:p:h<CR>:pwd<CR>
+nnoremap <leader>r :cd %:p:h<CR>:pwd<CR>
 
 "Auto-comments
 nnoremap cc <Plug>NERDCommenterInvert
 
 "ToggleTerminal
-nnoremap <C-t> :ToggleTerm<CR>
-tnoremap <C-t> exit<CR>
+nnoremap <C-t> :ToggleTerm size=50 dir=. direction=vertical<CR>
+nnoremap <leader>t :ToggleTerm direction=float<CR>
 
 "NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -38,7 +39,11 @@ nnoremap <F5> :Stdheader<cr>
 "Norminette
 nnoremap <C-n> :Norminette<cr>
 
-" BUf LSP
+" BUF LSP
 nnoremap <leader>d :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>h :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>gd :lua require('goto-preview').goto_preview_definition()<CR>
+
+" Cmake alias
+nnoremap <leader>cb :cmake -Bbuild<CR>
+nnoremap <leader>cm :cmake --build build<CR>
