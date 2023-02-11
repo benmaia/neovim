@@ -24,6 +24,7 @@ nnoremap <leader>r :cd %:p:h<CR>:pwd<CR>
 
 "Auto-comments
 nnoremap cc <Plug>NERDCommenterInvert
+vnoremap cc <Plug>NERDCommenterInvert
 
 "ToggleTerminal
 nnoremap <C-t> :ToggleTerm size=50 dir=. direction=vertical<CR>
@@ -41,6 +42,7 @@ nnoremap <C-n> :Norminette<cr>
 
 " BUF LSP
 nnoremap <leader>d :lua vim.lsp.buf.definition()<CR>
+nnoremap <leader>vd :vsplit <CR> :Telescope lsp_definitions<CR>
 nnoremap <leader>h :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>gd :lua require('goto-preview').goto_preview_definition()<CR>
 
