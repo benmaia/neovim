@@ -4,6 +4,7 @@ nnoremap  <silent> <C-f> <cmd>lua require('telescope.builtin').find_files()<cr>
 nnoremap  <silent> <C-g> <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 nnoremap  <silent> <C-p> :Telescope file_browser<cr>
+nnoremap  <leader> <C-p> :Telescope projects<cr>
 nnoremap('n', '<leader>m', '<cmd>lua require"telescope.builtin".lsp_definitions({jump_type="vsplit"})<CR>', {noremap=true, silent=true})
 "nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
@@ -30,3 +31,4 @@ vim.api.nvim_set_keymap('n', '<leader>ft', [[<cmd>lua require'telescope.builtin'
 
 
 EOF
+

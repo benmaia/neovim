@@ -8,6 +8,9 @@ call plug#begin()
 " Testing
 Plug 'rmagatti/goto-preview'
 
+"Projects Management
+Plug 'ahmedkhalf/project.nvim'
+
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 

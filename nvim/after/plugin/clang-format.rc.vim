@@ -13,7 +13,7 @@
 "}
 "
 let g:clang_format#detect_style_file = 1
-let g:clang_format#detect_style_file = 1
+let g:clang_format#auto_format=1
 
 " map to <Leader>cf in C++ code
 autocmd FileType c,cpp,objc nnoremap <buffer><Leader>cf :<C-u>ClangFormat<CR>
