@@ -35,7 +35,7 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-b> :NERDTreeToggle<CR>
 
 "42 Header
-nnoremap <F5> :Stdheader<cr>
+nnoremap <F1> :Stdheader<cr>
 
 "Norminette
 nnoremap <C-n> :Norminette<cr>
@@ -44,8 +44,18 @@ nnoremap <C-n> :Norminette<cr>
 nnoremap <leader>d :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>vd :vsplit <CR> :Telescope lsp_definitions<CR>
 nnoremap <leader>h :lua vim.lsp.buf.hover()<CR>
+nnoremap <leader>p :Telescope projects<CR>
 nnoremap <leader>gd :lua require('goto-preview').goto_preview_definition()<CR>
 
 " Cmake alias
 nnoremap <leader>cb :cmake -Bbuild<CR>
 nnoremap <leader>cm :cmake --build build<CR>
+
+" Debug
+nnoremap <leader>db :lua require('dapui').toggle()<CR>
+nnoremap <F5> :lua require('dap').continue()<CR>
+nnoremap <F10> :lua require('dap').step_over()<CR>
+nnoremap <F11> :lua require('dap').step_into()<CR>
+nnoremap <F12> :lua require('dap').step_out()<CR>
+nnoremap <leader>bp :lua require'dap'.toggle_breakpoint()<CR>
+nnoremap <leader>lp :lua require('dap').set_breakpoint(nil, nil, vim.fn.input('Log point message: ')<CR>

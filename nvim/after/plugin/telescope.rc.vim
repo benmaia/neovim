@@ -31,4 +31,3 @@ vim.api.nvim_set_keymap('n', '<leader>ft', [[<cmd>lua require'telescope.builtin'
 
 
 EOF
-

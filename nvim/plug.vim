@@ -8,6 +8,12 @@ call plug#begin()
 " Testing
 Plug 'rmagatti/goto-preview'
 
+"Debug
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'folke/neodev.nvim'
+Plug 'mfussenegger/nvim-dap-python'
+
 "Projects Management
 Plug 'ahmedkhalf/project.nvim'
 
